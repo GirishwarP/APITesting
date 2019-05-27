@@ -5,9 +5,8 @@
     <classes>
       <class name="com.EmployeManagement.tests.EmployeeManagementTest">
         <methods>
-          <include name="postEmployeeWithPayloadTest"/>
           <include name="putEmployeeWithPayloadTest"/>
-          <include name="deleteEmployeeWithPayloadTest"/>
+          <include name="deleteEmployeeWithJSONStringTest"/>
         </methods>
       </class> <!-- com.EmployeManagement.tests.EmployeeManagementTest -->
     </classes>

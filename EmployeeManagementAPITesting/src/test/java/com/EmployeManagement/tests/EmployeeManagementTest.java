@@ -8,7 +8,7 @@ import com.pojo.Employee;
 public class EmployeeManagementTest {
 
 	EmployeeManagementAPI api = new EmployeeManagementAPI();
-	Employee postPayload = new Employee.Builder().setId(39).setName("Ashwin Tyagi").setProfession("Test Engineer").build();
+	Employee postPayload = new Employee.Builder().setId(10).setName("Pramod Tekale").setProfession("Sr. Test Engineer").build();
 	Employee putPayload = new Employee.Builder().setId(1).setName("Navin K").setProfession("Sr. Director").build();
 	Employee deletePayload = new Employee.Builder().setId(1).setName("Navin K").setProfession("Sr. Director").build();
 	
